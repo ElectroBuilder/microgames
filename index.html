@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Micro Games</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation Bar-->
+    <nav>
+          <!--Logo-->
+          <div class="logo">
+            <h1>Micro Games &nbsp =]</h1>
+          </div>
+          <!--Sidebar button-->
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="Checkbox"
+            id="sidebar-checkbox"
+          />
+          <div class="lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <!--Sidebar Items-->
+          <div class="sidebar-items">
+            <li><a href="#" onclick="closeSidebar()">Home</a></li>
+            <li><a href="#apps" onclick="closeSidebar()">Apps</a></li>
+            <li><a href="about/about.html">about</a></li>
+            <li>
+              <a
+                href="https://github.com/ElectroBuilder/microgames"
+                target="_blank"
+                >source code</a
+              >
+            </li>
+            <li>
+              <a href="mailto: mustafaalishah@protonmail.com" target="_blank"
+                >contact</a
+              >
+            </li>
+            <element>mustafaalishah@protonmail.com</element>
+          </div>
+    </nav>
+
+    <!-- Games-->
+    <h2>Games</h2>
+    <section id="games">
+       <!--Game One-->
+      <div class="game">
+        <figure>
+          <img src="images/thumbnails/rps.png" alt="Rock paper scissors" />
+        </figure>
+        <figcaption>
+          <a href="rock-paper-scissors/rps.html" class="play"
+            >Play</a
+          >
+        </figcaption>
+      </div>
+    </section>
+
+    <!--Apps-->
+    <h2>Apps</h2>
+    <section id="apps">
+
+      <!--App One-->
+      <div class="app">
+        <figure>
+          <img src="images/thumbnails/calculator.png" alt="calculator" />
+        </figure>
+        <figcaption>
+          <a href="calculator/calculator.html" class="play">Play</a>
+        </figcaption>
+      </div>
+      <!--App Two-->
+  
+    <script src="script.js"></script>
+  </body>
+</html>
